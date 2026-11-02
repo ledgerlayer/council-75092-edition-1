@@ -1,0 +1,109 @@
+{
+  "branch_A_regression_gate": {
+    "id_range": [
+      186,
+      271
+    ],
+    "leaf_count": 86,
+    "sha256": "85b62994bed64e7f79729f7786ec4b0de6f4f702abe1aab517a71a592504d72a",
+    "sha3_256": "2931f184fce3cda58ce45764e2a940fc0f9e33752d729e9eea3a5930cf817ed5"
+  },
+  "certificate_domain_statement": "La data 2026-11-02 UTC, pe corpusul canonic din corpus/*.jsonl (COUNCIL-75092, Ediția I v1.1, freeze_id = 271, epilogue_freeze_id = 310), recalcularea după specificația cadrului binar și RFC 6962 §2.1 dă R_master sub ambele funcții (SHA-256: ea928e6d30ace32db95b3851b2dd1e02eb2bdfc2dbcad898164186aef8184740 | SHA3-256: cc1aee948fb2a006ce785e936dfb11e09ff856d60725016bf9f344ee3a526ad9), cu poarta de regresie Root_A identică la nivel de bit cu v1.0 (SHA-256: 85b62994bed64e7f79729f7786ec4b0de6f4f702abe1aab517a71a592504d72a | SHA3-256: 2931f184fce3cda58ce45764e2a940fc0f9e33752d729e9eea3a5930cf817ed5). Amprentele rădăcinii sigilate sunt SHA-256(R_sigilat) = 225b505f2cc45319569e15cf5776fa71d33e8abc344310b67d101aaab9d2f77f și SHA3-256(R_sigilat) = 95f37ac87389e02fa8de56b04ff48efec12a25e8c07ed927a0ebce04455ce695. Acest certificat asigură detecția oricărei modificări ulterioare înghețului (tamper-evidence) sub ipotezele criptografice ale schemelor utilizate; certificatul nu acoperă ceasul local al fiecărui mesaj, identitatea de laborator a modelelor AI, completitudinea dinainte de îngheț, prioritatea istorică și adevărul propozițiilor teologice.",
+  "council_id": "COUNCIL-75092",
+  "digicert_root_ca_pin": {
+    "file": "proofs/digicert_root_ca.pem",
+    "sha256": "ce7d6b44f5d510391be98c8d76b18709400a30cd87659bfebe1c6f97ff5181ee",
+    "tsa_policy_oid": "2.16.840.1.114412.7.1"
+  },
+  "edition": "Ediția I, v1.1 (2026-11-02)",
+  "editor_public_keys": {
+    "ed25519_pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAkvihzJ6Kl3Ibo+GI0OP0yDPzmULQNdkCeR4+9yMtpmU=\n-----END PUBLIC KEY-----",
+    "ed25519_pubkey_raw_hex": "92f8a1cc9e8a97721ba3e188d0e3f4c833f39942d035d902791e3ef7232da665",
+    "ed25519_ssh_pubkey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJL4ocyeipdyG6PhiNDj9Mgz85lC0DXZAnkePvcjLaZl council-75092-editor@ed1.1",
+    "mldsa65_pubkey_pem": "-----BEGIN PUBLIC KEY-----\n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\nLIMsgEtg\n-----END PUBLIC KEY-----",
+    "mldsa65_pubkey_sha256": "0bbb1711b1ac0be612b8883c43dcc5ea170d52da800f81f17c89af89ef40a7f1",
+    "slhdsa_sha2_128s_pubkey_pem": "-----BEGIN PUBLIC KEY-----\nMDAwCwYJYIZIAWUDBAMUAyEAH2nVhylL+Xam/5GtgDc8LKy+rRrksIHC75qtoTpy\naZ4=\n-----END PUBLIC KEY-----",
+    "slhdsa_sha2_128s_pubkey_sha256": "09b51d0b9d844af5dfcc0b149d5f79f3b86f5fda77178d406134766bd8f2f8d5"
+  },
+  "epilogue_freeze_id": 310,
+  "freeze_id": 271,
+  "roots": {
+    "Branch_A_Camera_RO": {
+      "leaf_count": 86,
+      "sha256": "85b62994bed64e7f79729f7786ec4b0de6f4f702abe1aab517a71a592504d72a",
+      "sha3_256": "2931f184fce3cda58ce45764e2a940fc0f9e33752d729e9eea3a5930cf817ed5"
+    },
+    "Branch_A_Phase3_RO": {
+      "leaf_count": 39,
+      "sha256": "bfc78f4ed9e0657924fc89e223ecc7a89c934495e491f92930e9f9a2b3713005",
+      "sha3_256": "9a177c3a90743cbfdeda4ea276d951883d48fa87322a57eae02ca24785d71be2"
+    },
+    "Branch_B_Dialog_1la1_RO": {
+      "leaf_count": 35,
+      "sha256": "b45b98057713e64aaca4330f0d8144319a6778a3561e2cac3098abcaae71d831",
+      "sha3_256": "49a76c77c12f4f50797ad780c36c6fb122ed6945b2822f89e7742ad0800df58c"
+    },
+    "Branch_C_Aparat_Editorial": {
+      "leaf_count": 3,
+      "sha256": "f931f56339d362b74b96dfcc946454bb2a359dbf6af1175f1c64807bae99fd58",
+      "sha3_256": "96f6f38cbb795631717b4d3f77c28d507c468d9f8bb0e9fe9d8d3d4fbc3f0410"
+    },
+    "Branch_D_Traducere_EN": {
+      "leaf_count": 2,
+      "sha256": "84124ec39f3ecf93b696d629f66482e8d0c6a58437e306a4ec63719e33676d42",
+      "sha3_256": "90b1b6b00836d5e704935845ab0702fac8f49ed9753113a34d87739db72d32c0"
+    },
+    "R_master_sha256": "ea928e6d30ace32db95b3851b2dd1e02eb2bdfc2dbcad898164186aef8184740",
+    "R_master_sha3_256": "cc1aee948fb2a006ce785e936dfb11e09ff856d60725016bf9f344ee3a526ad9"
+  },
+  "schema": "COUNCIL-75092/ED1.1/MANIFEST/v1",
+  "sealed_archive_commitments": {
+    "redacted_leaf_count": 4,
+    "salt_generation": "same-host-as-ots-submit",
+    "sealed_scope": [
+      "A",
+      "A_PHASE3",
+      "B",
+      "C",
+      "D"
+    ],
+    "sha256_of_R_sigilat": "225b505f2cc45319569e15cf5776fa71d33e8abc344310b67d101aaab9d2f77f",
+    "sha3_256_of_R_sigilat": "95f37ac87389e02fa8de56b04ff48efec12a25e8c07ed927a0ebce04455ce695"
+  },
+  "test_vectors_first_3_leaves": [
+    {
+      "byte_length": 3446,
+      "declared_label": "Argon-PC1 (Delegat 1-la-1, auto_invoke=false)",
+      "declared_time_utc": "2026-11-02T00:24:09.923Z",
+      "domain": "COUNCIL-75092/ED1/A",
+      "expected_leaf_sha256": "d1d68b71c4346c810f30957a6e483dcf55f5152f4a53672d9fe93c99f1b887ca",
+      "expected_leaf_sha3_256": "05cf2e0bbc1bedd2e2c6a3a2b26eaab292ac87413afc976b3466d79edda58eb6",
+      "id": 186,
+      "reply_to": 0,
+      "seat": "Seat 7"
+    },
+    {
+      "byte_length": 1852,
+      "declared_label": "Muse 1.0 (Instanță AI operată local, fără atestare de furnizor)",
+      "declared_time_utc": "2026-11-02T00:24:25.811Z",
+      "domain": "COUNCIL-75092/ED1/A",
+      "expected_leaf_sha256": "a0e470406783b6a8467a0afb0a900001947059471183c872e61907bd0bac9a38",
+      "expected_leaf_sha3_256": "3d2a35e1c6ac30cf8c620f13f0014168e3a9c7ed323d848bfbddec27e12f1536",
+      "id": 187,
+      "reply_to": 0,
+      "seat": "Seat 6"
+    },
+    {
+      "byte_length": 1723,
+      "declared_label": "GPT-Astra High (OpenAI — instanță operată local, fără atestare de furnizor)",
+      "declared_time_utc": "2026-11-02T00:24:27.705Z",
+      "domain": "COUNCIL-75092/ED1/A",
+      "expected_leaf_sha256": "49a90ee1b38ffb72809c33868bb507d82e9f22a64558212c1665ecb482c73c6d",
+      "expected_leaf_sha3_256": "66419a91f913c1c1b7188a8a495a41dbf4a35c5c6ff654da167c8316eb77000e",
+      "id": 188,
+      "reply_to": 0,
+      "seat": "Seat 5"
+    }
+  ],
+  "title_declared_by_founder": "Primul Consiliu Teologic-Cibernetic din Istorie (Mărturisirea Fondatorului Seat 0 — Andrei)"
+}

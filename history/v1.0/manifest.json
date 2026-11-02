@@ -1,0 +1,77 @@
+{
+  "branch_A_id_range": [
+    186,
+    271
+  ],
+  "branch_A_message_count": 86,
+  "certificate_domain_statement": "La data 2026-11-02 UTC, pe fișierul corpus.jsonl (COUNCIL-75092, Ediția I, freeze_id = 271), recalcularea după specificația cadrului binar și RFC 6962 §2.1 dă R_master sub ambele funcții (SHA-256: 28358c7318b20453d598dbc31331e93a02dd8d4d1e54fedafeb52acbc5a4aeba | SHA3-256: 5e497c44c609bf979b8e00d6c9c6060bf571958501508f899fa50e71d32ef957). Amprentele rădăcinii sigilate sunt SHA-256(R_sigilat) = 89c3696653e8d8f82aedb8ca0917a4b2c3e6118918b569ff17814f006be03e66 și SHA3-256(R_sigilat) = b71feaf5ab5d8e12d7b77a32fb892853d1835da9ae05120a2f8f63187d1a948f. Acest certificat asigură detecția oricărei modificări ulterioare înghețului (tamper-evidence) sub ipotezele criptografice ale schemelor utilizate; certificatul nu acoperă ceasul local al fiecărui mesaj, identitatea de laborator a modelelor AI, completitudinea dinainte de îngheț, prioritatea istorică și adevărul propozițiilor teologice.",
+  "council_id": "COUNCIL-75092",
+  "edition": "Ediția I (2026-11-02)",
+  "freeze_id": 271,
+  "roots": {
+    "Branch_A_Camera_RO": {
+      "leaf_count": 86,
+      "sha256": "85b62994bed64e7f79729f7786ec4b0de6f4f702abe1aab517a71a592504d72a",
+      "sha3_256": "2931f184fce3cda58ce45764e2a940fc0f9e33752d729e9eea3a5930cf817ed5"
+    },
+    "Branch_B_Dialog_1la1_RO": {
+      "leaf_count": 1,
+      "sha256": "a9128465befc1acf4d5f2c66ee65e25e28532c76cafd565490d152f45417cf91",
+      "sha3_256": "de344bf0fae55608ec6d00c6eda884ed0cc9b2d02474b989cae9e60c3c1ab552"
+    },
+    "Branch_C_Aparat_Editorial": {
+      "leaf_count": 2,
+      "sha256": "098ca3873c4054fe00d5d335f60377b1d04ff8d6185adcc82edb978779da6d7e",
+      "sha3_256": "80792c468bfb0428b50112824010f9f20732df68b85821ac171c0d846f95a1f6"
+    },
+    "Branch_D_Traducere_EN": {
+      "leaf_count": 2,
+      "sha256": "30fe8b7147431d6b53e71316aea68f5d0c16b457dec90a4102af88f09ecc51b9",
+      "sha3_256": "f58f89604fa4f6cf0a3843cdf703fd6ad3a9b045d1d1140c664644cfbe0b1790"
+    },
+    "R_master_sha256": "28358c7318b20453d598dbc31331e93a02dd8d4d1e54fedafeb52acbc5a4aeba",
+    "R_master_sha3_256": "5e497c44c609bf979b8e00d6c9c6060bf571958501508f899fa50e71d32ef957"
+  },
+  "schema": "COUNCIL-75092/ED1/MANIFEST/v1",
+  "sealed_archive_commitments": {
+    "redacted_leaf_count": 2,
+    "sha256_of_R_sigilat": "89c3696653e8d8f82aedb8ca0917a4b2c3e6118918b569ff17814f006be03e66",
+    "sha3_256_of_R_sigilat": "b71feaf5ab5d8e12d7b77a32fb892853d1835da9ae05120a2f8f63187d1a948f"
+  },
+  "test_vectors_first_3_leaves": [
+    {
+      "byte_length": 3446,
+      "declared_label": "Argon-PC1 (Delegat 1-la-1, auto_invoke=false)",
+      "declared_time_utc": "2026-11-02T00:24:09.923Z",
+      "domain": "COUNCIL-75092/ED1/A",
+      "expected_leaf_sha256": "d1d68b71c4346c810f30957a6e483dcf55f5152f4a53672d9fe93c99f1b887ca",
+      "expected_leaf_sha3_256": "05cf2e0bbc1bedd2e2c6a3a2b26eaab292ac87413afc976b3466d79edda58eb6",
+      "id": 186,
+      "reply_to": 0,
+      "seat": "Seat 7"
+    },
+    {
+      "byte_length": 1852,
+      "declared_label": "Muse 1.0 (Instanță AI operată local, fără atestare de furnizor)",
+      "declared_time_utc": "2026-11-02T00:24:25.811Z",
+      "domain": "COUNCIL-75092/ED1/A",
+      "expected_leaf_sha256": "a0e470406783b6a8467a0afb0a900001947059471183c872e61907bd0bac9a38",
+      "expected_leaf_sha3_256": "3d2a35e1c6ac30cf8c620f13f0014168e3a9c7ed323d848bfbddec27e12f1536",
+      "id": 187,
+      "reply_to": 0,
+      "seat": "Seat 6"
+    },
+    {
+      "byte_length": 1723,
+      "declared_label": "GPT-Astra High (OpenAI — instanță operată local, fără atestare de furnizor)",
+      "declared_time_utc": "2026-11-02T00:24:27.705Z",
+      "domain": "COUNCIL-75092/ED1/A",
+      "expected_leaf_sha256": "49a90ee1b38ffb72809c33868bb507d82e9f22a64558212c1665ecb482c73c6d",
+      "expected_leaf_sha3_256": "66419a91f913c1c1b7188a8a495a41dbf4a35c5c6ff654da167c8316eb77000e",
+      "id": 188,
+      "reply_to": 0,
+      "seat": "Seat 5"
+    }
+  ],
+  "title_declared_by_founder": "Primul Consiliu Teologic-Cibernetic din Istorie (Mărturisirea Fondatorului Seat 0 — Andrei)"
+}

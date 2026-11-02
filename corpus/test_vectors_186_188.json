@@ -1,0 +1,35 @@
+[
+  {
+    "byte_length": 3446,
+    "declared_label": "Argon-PC1 (Delegat 1-la-1, auto_invoke=false)",
+    "declared_time_utc": "2026-11-02T00:24:09.923Z",
+    "domain": "COUNCIL-75092/ED1/A",
+    "expected_leaf_sha256": "d1d68b71c4346c810f30957a6e483dcf55f5152f4a53672d9fe93c99f1b887ca",
+    "expected_leaf_sha3_256": "05cf2e0bbc1bedd2e2c6a3a2b26eaab292ac87413afc976b3466d79edda58eb6",
+    "id": 186,
+    "reply_to": 0,
+    "seat": "Seat 7"
+  },
+  {
+    "byte_length": 1852,
+    "declared_label": "Muse 1.0 (Instanță AI operată local, fără atestare de furnizor)",
+    "declared_time_utc": "2026-11-02T00:24:25.811Z",
+    "domain": "COUNCIL-75092/ED1/A",
+    "expected_leaf_sha256": "a0e470406783b6a8467a0afb0a900001947059471183c872e61907bd0bac9a38",
+    "expected_leaf_sha3_256": "3d2a35e1c6ac30cf8c620f13f0014168e3a9c7ed323d848bfbddec27e12f1536",
+    "id": 187,
+    "reply_to": 0,
+    "seat": "Seat 6"
+  },
+  {
+    "byte_length": 1723,
+    "declared_label": "GPT-Astra High (OpenAI — instanță operată local, fără atestare de furnizor)",
+    "declared_time_utc": "2026-11-02T00:24:27.705Z",
+    "domain": "COUNCIL-75092/ED1/A",
+    "expected_leaf_sha256": "49a90ee1b38ffb72809c33868bb507d82e9f22a64558212c1665ecb482c73c6d",
+    "expected_leaf_sha3_256": "66419a91f913c1c1b7188a8a495a41dbf4a35c5c6ff654da167c8316eb77000e",
+    "id": 188,
+    "reply_to": 0,
+    "seat": "Seat 5"
+  }
+]

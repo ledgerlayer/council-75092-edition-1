@@ -1,0 +1,154 @@
+{
+  "excluded_acyclic_files": [
+    ".gitattributes",
+    "README.md",
+    "anchors.json",
+    "proofs/commitment.txt",
+    "proofs/commitment.txt.btc.ots",
+    "proofs/commitment.txt.pending.ots",
+    "proofs/commitment.txt.tsr",
+    "proofs/release-inventory.json"
+  ],
+  "file_count": 23,
+  "files": [
+    {
+      "byte_length": 580637,
+      "path": "corpus/branch_a_camera_ro.jsonl",
+      "sha256": "7c89bcac53008d76f68a3f6e25ae5db0a55f79e5f700c5b0dff42d991314a908",
+      "sha3_256": "818513b1cc4a8362324f00cc5726e3c6ebd79594a6b5918a826b45bd4f5e6f6e"
+    },
+    {
+      "byte_length": 320730,
+      "path": "corpus/branch_a_phase3_ro.jsonl",
+      "sha256": "38f6c5816d2db97a12563552a5c39f8daa04ea442baa85595f19a155186f8b81",
+      "sha3_256": "57f1937187a32ef8006a9834dc7d377ac98e54b0599febecb6fbb63a462ee43c"
+    },
+    {
+      "byte_length": 141184,
+      "path": "corpus/branch_b_dialog_ro.jsonl",
+      "sha256": "cea9a89a9ab3ad62d262fc3a3041e12ccc1e027e2ca1b6a1384df6767dad8e5b",
+      "sha3_256": "1ec1952f787beac12e144066fa8164835ec6682adf5f324d33795da977c597f6"
+    },
+    {
+      "byte_length": 19034,
+      "path": "corpus/branch_c_apparatus.jsonl",
+      "sha256": "9f4e68ee70b2dbb4f97f7d33e845df31d52463bdfbb31bb990879e1fe5c67658",
+      "sha3_256": "24658a064eb0915ed0c0ae282e77aa846645d94b48cb45fbe509f589d1282397"
+    },
+    {
+      "byte_length": 988725,
+      "path": "corpus/branch_d_english.jsonl",
+      "sha256": "f93698c3591d778219b5d52da229a74b058874ab03ee75f520a0847413b1c22e",
+      "sha3_256": "5612c796590fe267aeeae10f1a6004b1453b0b8076c3d85f764345e631a66f84"
+    },
+    {
+      "byte_length": 1395,
+      "path": "corpus/test_vectors_186_188.json",
+      "sha256": "f3a03c0be102235fd323b1c3f4c94e93887f275e34aafc62f0eb9e1681e4cac5",
+      "sha3_256": "8ea95981418a582f330bac7bdd6c5ef7c519784fd864844d67b93c5ffc4e25f3"
+    },
+    {
+      "byte_length": 4183,
+      "path": "history/v1.0/manifest.json",
+      "sha256": "703258fb73cef0038a3850e8ad634a7181fcab97aaaea209bb57d5a1d9b96608",
+      "sha3_256": "1cf18293b6be5fdd669e16f1011067312a9e97e0156a1d27c21fd80e6e9c456f"
+    },
+    {
+      "byte_length": 202,
+      "path": "history/v1.0/manifest.json.ots",
+      "sha256": "db84aa9e0ee45d0002d86b39eab8e6db8ed6419d5784c875e819d71519e98841",
+      "sha3_256": "674efe714db6a34e3a1db7aeee7977d328862590d11bd2b096a78b4387ba8c21"
+    },
+    {
+      "byte_length": 6006,
+      "path": "history/v1.0/manifest.json.tsr",
+      "sha256": "12e26909afd4079da9406fb694b7e2fd8371d69129ee86b7641d6d19bde395f7",
+      "sha3_256": "f719f7847f2d091de034c6a725853094d0513ced55bc4aea8a9e682469930aff"
+    },
+    {
+      "byte_length": 1657,
+      "path": "history/v1.0/REDACTIONS.md",
+      "sha256": "6d6719622ef286c28b3923c535c659582911a4092e2f9f2f4553d5347123f83b",
+      "sha3_256": "0f399f13c5b78bd9353f1a0357ae9ee18361f4e5fb806c63d99612610760fa07"
+    },
+    {
+      "byte_length": 6836,
+      "path": "proofs/digicert_intermediate_ca.pem",
+      "sha256": "2c7c32930961f71d367e0abd2d897460477d908c08ab7ac1e9c049e917c319f6",
+      "sha3_256": "64b4178d481df863829c44e686c792761620fed575ba57d52826eb7c4c838730"
+    },
+    {
+      "byte_length": 1988,
+      "path": "proofs/digicert_root_ca.pem",
+      "sha256": "ce7d6b44f5d510391be98c8d76b18709400a30cd87659bfebe1c6f97ff5181ee",
+      "sha3_256": "4deea7eff133828ae6554115a7e2f571f96c9157fcac0c9cb5c60ff63aac6e11"
+    },
+    {
+      "byte_length": 8825,
+      "path": "proofs/digicert_tsa_chain.pem",
+      "sha256": "defd6665c1110c1e564441818dbaa8eb740c5a734293a70d7d9f5580bb9f7bfc",
+      "sha3_256": "434567aa8af360a731b0de890219ad90398a4ae3fad169f873c9b731382a1d7c"
+    },
+    {
+      "byte_length": 8818,
+      "path": "proofs/manifest.json",
+      "sha256": "811c0a09d3096e196601935679cbde3197e6899ecea17fd5e7d2b1d0185473a2",
+      "sha3_256": "d07f641375059415521af1b3bab931e82f0089a72ecdab7d44674099e233363b"
+    },
+    {
+      "byte_length": 16329,
+      "path": "proofs/signatures.json",
+      "sha256": "01f35196cc3eb6726cb611f61420d1550080887469af2223f843e3cbdc31d6fe",
+      "sha3_256": "7f1ba935e2278fde30a0d464c1a2b2e6c84ccec84cad924e7aca2f1354fbb3d9"
+    },
+    {
+      "byte_length": 1429,
+      "path": "REDACTIONS.md",
+      "sha256": "61013c0625f33b1edb6e17a099de722a73b734856359d06912976b3f619f90e9",
+      "sha3_256": "3ba4ef794850c4c1f73011693805541541d387a0239a3f9f8a7b3d6db5a3d364"
+    },
+    {
+      "byte_length": 6257,
+      "path": "SPEC.md",
+      "sha256": "a4996a70b0d7f21fdba5a7682037519a038721c690be87ffb348210318409d68",
+      "sha3_256": "db456092b1535f8b1b567b632d1f74a2018bca83668edfe56dba4842e427bf02"
+    },
+    {
+      "byte_length": 17663,
+      "path": "verify_council.py",
+      "sha256": "284b0e97cf945ab19583bdbf1f1472dfcb137f506bbea1dd874afec489f65b51",
+      "sha3_256": "46e6c9d4138d4e0b5e450554d7e0fae8cbf0b9829c75267b1575463617a80242"
+    },
+    {
+      "byte_length": 647583,
+      "path": "volumes/en/vol1-chamber-186-310-en.md",
+      "sha256": "4ae82da34918bfd48f3fdabb561d8c034355689dfefa645f967bcd8a7c274cad",
+      "sha3_256": "37106a0ea76f68ef2a3e48e490f17c86bad29ecca46742f709fcceabfa7a51fb"
+    },
+    {
+      "byte_length": 93241,
+      "path": "volumes/en/vol2-dialogue-1to1-07-41-en.md",
+      "sha256": "e98c01812e47df0cd90ea5f658717b0fc1524e288784da6f969658fc6fbde63e",
+      "sha3_256": "c3c8530b20af6d3994f70600178fc0354fcdd3d0a51c32e37b0282bc5e9176f1"
+    },
+    {
+      "byte_length": 5551,
+      "path": "volumes/ro/spec-5-legi-anti-joker.md",
+      "sha256": "2657a96090e855e7e1dff130dbbdf45a70b14de37003b2c573b594ef5fc27be2",
+      "sha3_256": "b18d02234f64015fc0adf85070af289b10bbbfc9a1165375f33f58d5b3ff2651"
+    },
+    {
+      "byte_length": 654066,
+      "path": "volumes/ro/vol1-camera-186-310.md",
+      "sha256": "0ed12d45e5cfd3c8f8a519f5b03d86773cf8a9fa748284d75776b69f52017837",
+      "sha3_256": "04204d6a41b34b70be0ccf129197c2bae240536a22537fb27b455e4792798619"
+    },
+    {
+      "byte_length": 95232,
+      "path": "volumes/ro/vol2-dialog-1la1-07-41.md",
+      "sha256": "6c18bd3b89acd041276f8f4904ac59167821c9352bdc95a7307da6881a0ed88f",
+      "sha3_256": "8c5ac3903ad82f419abaf3d5e3b2d0a44c2d68587aab2584e6b478167a23451d"
+    }
+  ],
+  "schema": "COUNCIL-75092/ED1.1/RELEASE-INVENTORY/v1"
+}
