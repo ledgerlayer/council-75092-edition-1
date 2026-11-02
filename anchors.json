@@ -1,0 +1,43 @@
+{
+  "council_id": "COUNCIL-75092",
+  "edition": "Ediția I, v1.1 (2026-11-02)",
+  "schema": "COUNCIL-75092/ED1.1/ANCHORS/v1",
+  "xrpl_tx_1": {
+    "amount_drops": "1",
+    "close_time_iso": "2026-11-02T03:41:41Z",
+    "destination": "rrrrrrrrrrrrrrrrrrrrBZbvji",
+    "destination_tag": 75092,
+    "explorer_url": "https://livenet.xrpl.org/transactions/1B041072419A83DF8FE0D222B719FC526971605BAEED80D03269A70B44BF50E0",
+    "fee_drops": "10",
+    "jcs_preimage_sha256": "c80afcbcec0960378647df7708b2e3ca9072e79f4058a16c2eca03914b3e902e",
+    "jcs_preimage_utf8": "COUNCIL-75092/ED1.1/XRPL-TX1\n{\"bridge_state\":\"PENDING_BTC\",\"commitment_sha256\":\"25086c6b435741779494b605ab46497a6b57b8cbf7db7c7ab5063ae6864812b5\",\"council_id\":\"COUNCIL-75092\",\"ed25519_pubkey\":\"92f8a1cc9e8a97721ba3e188d0e3f4c833f39942d035d902791e3ef7232da665\",\"edition\":\"v1.1\",\"epilogue_freeze_id\":310,\"freeze_id\":271,\"git_commit_sha1\":\"9c5233cbd40e244fca478d1c3a1777ce6f217943\",\"ots_pending_sha256\":\"a9ba010fbbc42a83f320e925796a7a0dd1be96032178d945e75e5f58b03355cb\",\"r_master_sha256\":\"ea928e6d30ace32db95b3851b2dd1e02eb2bdfc2dbcad898164186aef8184740\",\"r_master_sha3_256\":\"cc1aee948fb2a006ce785e936dfb11e09ff856d60725016bf9f344ee3a526ad9\",\"schema\":\"COUNCIL-75092/ED1.1/XRPL-TX1/v1\",\"tsa_tsr_sha256\":\"bf49b3ee186a5729336d37e7a8690fa205855d50a79fd97ad7ed3f43e8b0ebc8\"}",
+    "ledger_index": 108058886,
+    "memo_payload": {
+      "bridge_state": "PENDING_BTC",
+      "commitment_sha256": "25086c6b435741779494b605ab46497a6b57b8cbf7db7c7ab5063ae6864812b5",
+      "council_id": "COUNCIL-75092",
+      "ed25519_pubkey": "92f8a1cc9e8a97721ba3e188d0e3f4c833f39942d035d902791e3ef7232da665",
+      "ed25519_sig": "6b08c0f6d5fed251705b0931f2de0319958af5a74411f1703608244e9e847bb64a10271755c4938457b6d59581f8f7a04fa22c165ce33cde02eb900708589d0e",
+      "edition": "v1.1",
+      "epilogue_freeze_id": 310,
+      "freeze_id": 271,
+      "git_commit_sha1": "9c5233cbd40e244fca478d1c3a1777ce6f217943",
+      "ots_pending_sha256": "a9ba010fbbc42a83f320e925796a7a0dd1be96032178d945e75e5f58b03355cb",
+      "r_master_sha256": "ea928e6d30ace32db95b3851b2dd1e02eb2bdfc2dbcad898164186aef8184740",
+      "r_master_sha3_256": "cc1aee948fb2a006ce785e936dfb11e09ff856d60725016bf9f344ee3a526ad9",
+      "schema": "COUNCIL-75092/ED1.1/XRPL-TX1/v1",
+      "tsa_tsr_sha256": "bf49b3ee186a5729336d37e7a8690fa205855d50a79fd97ad7ed3f43e8b0ebc8"
+    },
+    "network": "XRPL Mainnet (https://s1.ripple.com:51234/)",
+    "sender_account": "rGzTvZdUBnsV7S9DUeNySPkxRjiNoSKVX6",
+    "transaction_result": "tesSUCCESS",
+    "tx_hash": "1B041072419A83DF8FE0D222B719FC526971605BAEED80D03269A70B44BF50E0",
+    "validated": true
+  },
+  "xrpl_tx_2_bitcoin_bridge": {
+    "description": "Se completează prin ots upgrade proofs/commitment.txt.pending.ots după minimum 6 confirmări Bitcoin, folosind big-endian display byte order pentru btc_block_hash și btc_txid.",
+    "pending_ots_file": "proofs/commitment.txt.pending.ots",
+    "pending_ots_sha256": "a9ba010fbbc42a83f320e925796a7a0dd1be96032178d945e75e5f58b03355cb",
+    "status": "PENDING_6_BTC_CONFIRMATIONS"
+  }
+}
